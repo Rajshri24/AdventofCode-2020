@@ -4,7 +4,6 @@ clear all
 
 inp = importdata('input.txt');
 len = length(inp); 
-sum = zeros(len-1,len-1);
 
 for i = 1:len-1
     for j = i+1:len-1
